@@ -1,0 +1,212 @@
+.article-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.article-sidebar {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-article {
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-article img {
+    width: 100%;
+    border-radius: 5px;
+}
+.uniform-image {
+    width: 100%; /* Set the desired width */
+    height: 250px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+
+.sidebar-article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.sidebar-article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* News Items */
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Background color for article items */
+}
+
+.news-item img {
+    width: 150px; /* Set uniform width */
+    height: 100px; /* Set uniform height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-right: 15px;
+    border-radius: 4px;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+        .news-item h3 {
+            margin: 0;
+            font-size: 16px; /* Adjusted font size for the title */
+            font-weight: bold;
+            color: black;
+        }
+
+
+        .article-content .author {
+            font-size: 12px;
+            color: black;
+        }
+
+        .article-content .time {
+            font-size: 12px;
+            color: black;
+        }
+.news-item .content {
+    flex: 1;
+}
+
+.news-item .content h3 {
+    margin: 0 0 5px 0;
+}
+
+.news-item .content p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 13px;}
+
+.news-item .content span {
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.footer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: #0056b3;
+}
+
+.load-more {
+    background-color: #174e46;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #11dac2;
+}
+
+.comment img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Post Footer */
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.post-footer span {
+    font-size: 12px;
+}
+
+/* Views Container */
+.views-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+.views-container i {
+    margin-right: 5px;
+}
+
+/* Button Sizes */
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.btn-sm:hover {
+    background-color: darkblue;
+}
+
+/* Additional Styles */
+.additional-articles {
+    display: none;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-tabs a.active {
+    background-color: #007bff;
+    color: white;
+}
+.main-article-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

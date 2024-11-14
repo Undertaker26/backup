@@ -1,0 +1,11 @@
+.mission, .vision {
+    margin-top: 30px;
+}
+.mission h2, .vision h2 {
+    color: #007BFF;
+}
+.org-chart img {
+    display: block;
+    max-width: 50%;
+    margin: 10px auto;
+}

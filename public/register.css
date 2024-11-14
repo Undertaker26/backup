@@ -1,0 +1,125 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+  }
+  body {
+    padding-top: 140px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+  }
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    margin-top:154px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 420px;
+    width: 100%;
+  }
+  .container img {
+    width: 250px; 
+    margin-bottom: 20px;
+  }
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .container .row {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin: 10px 0;
+    padding: 20px;
+  }
+  .container .row select {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .container button {
+    width: 90%;
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  .container button:hover {
+    background-color: #00332c;
+  }
+  .container input[type="date"] {
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+  .container .rows {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    margin: 10px 0;
+    padding: 20px;
+  }
+  .container .rows select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .container .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+  .register-link {
+    color: #004d40;
+    text-decoration: none;
+  }
+  .register-link:hover {
+    text-decoration: underline;
+  }
